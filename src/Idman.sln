@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Idman.Generator", "Idman.Generator\Idman.Generator.csproj", "{4C588E62-531B-488A-A2CB-588DDA0DB9BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Idman.Generator.Web", "Idman.Generator.Web\Idman.Generator.Web.csproj", "{403801CB-1BC5-4BA0-AC92-DB33645C56BE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C588E62-531B-488A-A2CB-588DDA0DB9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C588E62-531B-488A-A2CB-588DDA0DB9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C588E62-531B-488A-A2CB-588DDA0DB9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C588E62-531B-488A-A2CB-588DDA0DB9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{403801CB-1BC5-4BA0-AC92-DB33645C56BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403801CB-1BC5-4BA0-AC92-DB33645C56BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403801CB-1BC5-4BA0-AC92-DB33645C56BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403801CB-1BC5-4BA0-AC92-DB33645C56BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
