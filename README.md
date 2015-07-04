@@ -1,4 +1,4 @@
 # idman
-## a RESTful id generator api
+### a RESTful id generator api
 
 
